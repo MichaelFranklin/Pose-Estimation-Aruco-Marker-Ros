@@ -73,6 +73,14 @@ https://huangwang.github.io/2019/04/28/OpenCV4-0%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%A
 https://zhuanlan.zhihu.com/p/28489938?from_voters_page=true
 
 
+```
+http://wiki.ros.org/camera_calibration
+
+cameracalibrator.py
+cameracalibrator.py subscribes to ROS raw image topics, and presents a calibration window. It can run in both monocular and stereo modes. The calibration window shows the current images from the cameras, highlighting the checkerboard. When the user presses the CALIBRATE button, the node computes the camera calibration parameters. When the user clicks COMMIT, the node uploads these new calibration parameters to the camera driver using a service call.
+
+```
+
 ### Clone aruco_ros package
 Now we need the package that has `arucofidmarkers` node to detect and estimate pose of a aruco marker. Details about the package can be found [here](http://wiki.ros.org/aruco_ros). However following the instructions below will make you go on further with little effort.
 
