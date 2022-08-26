@@ -63,6 +63,9 @@ As far as camera calibration method is concerned, there are two types available,
 +$ rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/usb_cam/image_raw  camera:=/usb_cam
 
 ```
+### How does the camera calibration works?
+https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html
+
 
 ### Clone aruco_ros package
 Now we need the package that has `arucofidmarkers` node to detect and estimate pose of a aruco marker. Details about the package can be found [here](http://wiki.ros.org/aruco_ros). However following the instructions below will make you go on further with little effort.
