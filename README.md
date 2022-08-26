@@ -59,7 +59,9 @@ $ source devel/setup.bash
 As far as camera calibration method is concerned, there are two types available, `monocular` and `stereo`. We will be using only one camera to track a aruco marker, hence we will be interested in `monoculaar camera calibration method` as instructed following. To run the cameracalibrator.py node for a monocular camera using an 8x6 chessboard with 108mm squares: (for details please ckeck [here](http://wiki.ros.org/camera_calibration) and [here](http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration))
 
 ```
-$ rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/usb_cam/image camera:=/usb_cam
+-$ rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/usb_cam/image camera:=/usb_cam
+-$ rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/usb_cam/image_raw  camera:=/usb_cam
+
 ```
 
 ### Clone aruco_ros package
