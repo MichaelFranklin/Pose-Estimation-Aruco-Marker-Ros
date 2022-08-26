@@ -68,6 +68,10 @@ https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_recons
 
 https://www.skiprobotics.com/articles/2021-08-13-camera-calibration/
 
+https://huangwang.github.io/2019/04/28/OpenCV4-0%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A%E6%95%99%E7%A8%8B/
+
+https://zhuanlan.zhihu.com/p/28489938?from_voters_page=true
+
 
 ### Clone aruco_ros package
 Now we need the package that has `arucofidmarkers` node to detect and estimate pose of a aruco marker. Details about the package can be found [here](http://wiki.ros.org/aruco_ros). However following the instructions below will make you go on further with little effort.
