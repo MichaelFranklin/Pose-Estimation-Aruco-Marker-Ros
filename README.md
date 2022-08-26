@@ -65,6 +65,7 @@ As far as camera calibration method is concerned, there are two types available,
 ```
 ### How does the camera calibration works?
 https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html
+https://www.skiprobotics.com/articles/2021-08-13-camera-calibration/
 
 
 ### Clone aruco_ros package
